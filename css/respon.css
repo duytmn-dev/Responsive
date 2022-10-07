@@ -1,0 +1,65 @@
+/* Dành cho cả Table và Moblie */
+
+@media screen and (max-width: 63.9375em) {
+    .product{
+      flex-direction: column-reverse;
+    }
+    .product-info{
+        width: 100%;
+    }
+    .product_desc{
+        display: none;
+    }
+    .product_img{
+        width: 80%;
+        padding-top: 80%;
+    }
+    
+}
+/* Dành cho Mobile */
+
+@media  screen and (max-width: 46.1875em){
+
+    .product_img{
+        width: 90%;
+        padding-top:90%;
+    }
+    .category{
+        padding: 0;
+    }
+    .category-list{
+        display: none;
+    }
+    .course{
+        width: 100%;
+        padding: 0;
+    }
+    .course1,.course2,.course3,.course4{
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+}
+
+/* Dành cho Table */
+
+@media screen and (min-width: 46.25em) and  (max-width: 63.9375em){
+    .product_img{
+        width: 85%;
+        padding-top:85%;
+    }
+    .course1,.course2,.course3,.course4{
+        width: 33.333%;
+    }
+
+}
