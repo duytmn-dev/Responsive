@@ -7,21 +7,29 @@
     display: flex;
 }
 .product_img{
-    width: 100%;
-    margin:30px 20px;
+    width: 40%;
+    padding-top:34%;
+    background-image: url("https://cdn.pancake.vn/1/s600x600/57/c3/7a/66/aa66e5fc6d69090e25679db1f81a1185930f5a70a6d049f77bcd9856.jpg");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
-.product_img>img{
-    width: 500px;
-}
 .product_info{
+    width: 60%;
     margin-top: 40px;
+    margin-left: 40px;
 }
 .product_name{
+    margin: 0;
     font-size: 30px;
+    line-height: 40px;
 }
 .product_price{
     font-size: 20px;
     color: red;
+    line-height: 30px;
+    margin: 10px 0;
 }
 .product_desc{
     font-size: 16px;
@@ -40,11 +48,11 @@
     margin: 0;
 }
 .category-list{
-    width: 70%;
+    width: 12%;
 
 }
 .course1, .course2, .course3, .course4{
-    width: 100%;
+    width: 22%;
     margin-left: 20px;
 }
 .cards{
