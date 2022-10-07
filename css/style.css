@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.product{
+    display: flex;
+}
+.product_img{
+    width: 100%;
+    margin:30px 20px;
+    }
+.product_img>img{
+    width: 500px;
+}
+.product_info{
+    margin-top: 40px;
+}
+.product_name{
+    font-size: 30px;
+}
+.product_price{
+    font-size: 20px;
+    color: red;
+}
+.product_desc{
+    font-size: 16px;
+    line-height: 20px;
+}
+.category{
+    padding: 0 0 0 30px;
+    font-size:14px;
+    line-height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.category h2 {
+    line-height: 50px;
+    margin: 0;
+}
+.category-list{
+    width: 70%;
+
+}
+.course1, .course2, .course3, .course4{
+    width: 100%;
+    margin-left: 20px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+.card{
+    width: 100%;
+    margin: 0 25px;
+    background-color: #66FF66;
+    padding: 10px 40px;
+    border-radius: 20px;
+    box-shadow: 5px 7px #660033;
+}
+.card > h3{
+    font-size: 25px;
+    font-family: 'Alkalami', serif;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #003300;
+}
+.card:nth-child(2){
+    background-color: #CC99FF;
+    color: #000000;
+}
+.card:nth-child(3){
+    background-color: #66CCFF;
+    color: #000000;
+}
